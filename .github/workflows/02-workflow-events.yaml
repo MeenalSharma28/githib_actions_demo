@@ -1,6 +1,6 @@
 name: 02 - Workflow Event
-on: 
-    pull_request: 
+on:
+    pull_request:
     schedule:
          - cron: '0 0 * * FRI'
     workflow_dispatch:
